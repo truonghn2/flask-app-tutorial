@@ -53,4 +53,4 @@ def get_item_in_store(name):
     for store in stores:
         if store["name"] == name:
             return {"items": store["items"]}
-    return {"message": "Store not found"}, 404
+    return {"message": "Store not found"}, 404 #test
